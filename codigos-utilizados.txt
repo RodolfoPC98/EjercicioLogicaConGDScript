@@ -1,0 +1,24 @@
+extends Node
+var cali = [6.25,7.25,8.25,7.25]
+var suma = 0
+var prom
+func _ready():
+	for i in cali.size():
+		suma = suma + cali[i]
+	prom = suma / cali.size()
+	print (prom)
+
+
+----------------------------------
+
+extends Node
+var centimetros = 3
+var conversion = 2.54
+var pulgadas
+func _ready():
+	pulgadas = centimetros * conversion
+	print (str(centimetros)+ " -> " +str(pulgadas))
+
+
+------------------------------------
+
