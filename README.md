@@ -6,4 +6,8 @@ Escriba un programa que calcule el promedio de 4 notas. Por ejemplo 9, 6, 8, 6. 
 
 Resultado:
 
-![Resultado ejercicio 1](r1.png)
+![Resultado ejercicio 1](img/r1.png)
+
+<br>
+
+## Ejercicio 2
