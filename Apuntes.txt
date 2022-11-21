@@ -1,0 +1,127 @@
+"""
+Primer ejemplo
+"""
+# Este es un comentario de una sola línea
+
+var a = 10
+var b = "Mundo"
+var c = 10.40
+var d = true
+
+# Imprimimos a
+print (a)
+# Imprimimos hola
+a = "hola"
+print (a)
+# Imprimimos concatenado
+print (a + b)
+print (c)
+print (d)
+
+
+# -------------------------------------
+
+
+var edad = 15
+# validar la mayoria de edad y dejar 
+# pasar en caso de ser mayor a 18 , de lo
+# contrario, no dejar pasar.
+
+if edad >= 18:
+	print ("Puedes pasar por que tienes: "+str(edad))
+else:
+	print ("no puedes pasar, por que tienes "+str(edad)+" años")
+	
+
+# -----------------------------------
+
+# Estructura Match
+var navegador = "explore"
+match navegador:
+	"mozilla":
+		print ("Utilizas mozilla!")
+	"safari":
+		print ("Utilizas safari!")
+	"chrome":
+		print("Utilizas chrome!")
+	_: # Esto es un otherwise (else en java)
+		print ("Esto no es un navegador")
+		
+		
+
+match edad:
+	1:
+		print ("1")
+	5,10,15,20,25:
+			print("Esta en los valores")
+			
+	
+# -----------------------------------------
+
+print ("")
+a = 10		#Se usará de contador
+for i in range(2, a, 3):		#El primer digito es donde comienza, el segundo al que tiene que llegar, el ultimo cuanto se añade
+	print (i)
+
+	
+	
+# ------------------------------------
+
+
+print ("")
+a = 5
+var cont = 1
+while a > cont:
+	a -= 1
+	print (a)
+
+
+# ------------------------------
+
+print (" Arrays")
+# arrays
+var arreglo = [1,2,3,4]
+for index in arreglo.size():
+	print (arreglo[index])
+	
+	
+# ---------------------------------
+
+print ("")
+# Diccionario
+var personas = {} # diccionario vacio
+var animales = {
+	"tipo": "canino",
+	"patas": 4,
+	"edad": 15.4,
+	"isWhite": true,
+	"food": ["carne", "perrarina", "agua"]
+}
+# "values" se usa para ver los valores de los diccionarios,
+# y "keys" para ver las claves de los campos.
+for i in animales.keys ():
+	if i == "food":
+		#pass # para que pase el arreglo sino hay nada
+		for j in animales[i]:
+			print(j)
+	else:
+		print(animales[i])
+		
+
+		
+# -----------------------------------
+
+print("")
+# operador ternario
+# (resultado1) if (condicion) else (Resultado2)
+edad = 17
+print ("Mayor" if edad >= 18 else "Menor")
+arreglo = [17, 18]
+for i in arreglo:
+	print (i)
+
+print("")
+# Anexa otro elemento al arreglo
+arreglo.append(19)
+for i in arreglo:
+	print (i)
