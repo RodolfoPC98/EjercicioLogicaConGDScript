@@ -24,3 +24,5 @@ Resultado:
 <br>
 
 ## Ejercicio 3
+
+Este es un comentario de prueba
