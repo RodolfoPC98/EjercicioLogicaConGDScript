@@ -20,5 +20,20 @@ func _ready():
 	print (str(centimetros)+ " -> " +str(pulgadas))
 
 
+# ---------------------------------
+
+extends Node
+
+var numero = "569"
+var numvolt = ""
+
+func _ready():
+	print (numero)
+	for i in numero.length():
+		numvolt = numvolt + numero.rigth(i)
+	print (numvolt)
+
+
+
 ------------------------------------
 

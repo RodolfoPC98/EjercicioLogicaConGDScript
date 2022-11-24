@@ -25,4 +25,21 @@ Resultado:
 
 ## Ejercicio 3
 
-Este es un comentario de prueba
+Escriba un programa que invierta un numero de tres cifras. Por ejemplo "569", la consola debe mostrar:
+
+    569 -> 965
+
+Resultado:
+
+![Resultado ejercicio 3](img/r3.png)
+
+## Ejercicio 4
+
+Escriba un programa que determine si el número entero es par o no. Por ejemplo 5, la consola debe mostrar:
+
+    5 es impar
+
+Resultado:
+
+![Resultado ejercicio 4](img/r4.png)
+
