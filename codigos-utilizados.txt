@@ -1,3 +1,4 @@
+# Ejercicio 1
 extends Node
 var cali = [6.25,7.25,8.25,7.25]
 var suma = 0
@@ -11,6 +12,7 @@ func _ready():
 
 ----------------------------------
 
+# Ejercicio 2
 extends Node
 var centimetros = 3
 var conversion = 2.54
@@ -22,18 +24,76 @@ func _ready():
 
 # ---------------------------------
 
+#Ejercicio 3
 extends Node
 
-var numero = "569"
-var numvolt = ""
+var num1 = 569
+var cade = str(num1)
+var tam = len(str(num1)) - 1
+var num2 = str("")
 
 func _ready():
-	print (numero)
-	for i in numero.length():
-		numvolt = numvolt + numero.rigth(i)
-	print (numvolt)
+	for i in range(len(cade)):
+		num2 += cade[tam]
+		tam -= 1
+	print(cade+" --> "+num2)
 
 
 
 ------------------------------------
 
+# Ejercicio 4
+extends Node
+
+var num = 5
+
+func _ready():
+	
+	if (num%2) == 0:
+		print ("El numero "+str(num)+" es par")
+	else:
+		print ("El numero "+str(num)+" es impar")
+
+
+-----------------------------
+
+
+# Ejercicio 5
+extends Node
+
+var text1 = "Programacion"
+var text2 = "Desarrollo"
+var tam1 = len(text1)
+var tam2 = len(text2)
+
+func _ready():
+	if tam1 == tam2:
+		print("Las dos palabras son iguales")
+	elif tam1 > tam2:
+		print(text1+" es mayor que "+text2+" por "+str(tam1-tam2)+" caracteres")
+	else:
+		print(text2+" es mayor que "+text1+" por "+str(tam2-tam1)+" caracteres")
+		
+
+----------------------------------
+
+
+# Ejercicio 6
+
+
+
+
+------------------------------------
+
+
+# Ejercicio 7
+for i in range(1, 11):
+	print("La tabla del "+str(i)+" es:")
+	for j in range(1, 11):
+		print (str(i)+" x "+str(j)+" = "+str(i*j))
+	print("")
+
+
+----------------------------------------
+
+# Ejercicio 8
