@@ -221,4 +221,14 @@ Escriba un programa que dibuje un tablero de ajedrez de la siguiente manera:
 
 Resultado:
 
-![Resultado ejercicio 9](img/r5.png)
+![Resultado ejercicio 9](img/r.png)
+
+## Ejercicio 10
+
+Escribe un programa el cual se le pase un nombre como parametro a una función y retorne un saludo con ese nombre. Por ejemplo saludar("Juan"). La consola debe mostrar:
+
+    Hola Juan
+
+Resultado:
+
+![Resultado ejercicio 9](img/r10.png)
