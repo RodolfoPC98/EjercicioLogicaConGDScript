@@ -231,4 +231,4 @@ Escribe un programa el cual se le pase un nombre como parametro a una función y
 
 Resultado:
 
-![Resultado ejercicio 9](img/r10.png)
+![Resultado ejercicio 10](img/r10.png)
