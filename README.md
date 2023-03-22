@@ -1,4 +1,7 @@
 # Ejercicios de lógica con GDScript
+
+Se planeá realizar una serie de ejercicios para aprender la lógica de programación en GDSCript.
+
 ## Ejercicio 1
 
 Escriba un programa que calcule el promedio de 4 notas. Por ejemplo 9, 6, 8, 6. La consola debe mostrar:
