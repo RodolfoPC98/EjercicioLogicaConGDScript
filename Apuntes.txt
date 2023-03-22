@@ -35,6 +35,7 @@ else:
 
 # -----------------------------------
 
+
 # Estructura Match
 var navegador = "explore"
 match navegador:
@@ -60,7 +61,7 @@ match edad:
 
 print ("")
 a = 10		#Se usará de contador
-for i in range(2, a, 3):		#El primer digito es donde comienza, el segundo al que tiene que llegar, el ultimo cuanto se añade
+for i in range(2, a, 3):#El primer digito es donde comienza, el segundo al que tiene que llegar, el ultimo cuanto se añade
 	print (i)
 
 	
@@ -125,3 +126,5 @@ print("")
 arreglo.append(19)
 for i in arreglo:
 	print (i)
+
+
