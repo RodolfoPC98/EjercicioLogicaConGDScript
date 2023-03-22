@@ -219,9 +219,12 @@ Escriba un programa que dibuje un tablero de ajedrez de la siguiente manera:
     # # # # 
      # # # #
 
-Resultado:
+Resultado: 
 
-![Resultado ejercicio 9](img/r.png)
+Nota: en el GDScript PlayGround "https://gd.tumeo.space/"
+no permite dejar espacios en blancos al inicio de una línea, por lo tanto se implementá "[]" para representar los espacios en blanco.
+
+![Resultado ejercicio 9](img/r9.png)
 
 ## Ejercicio 10
 
